@@ -1,0 +1,54 @@
+# Biosplice Therapeutics
+
+> Privately held, clinical-stage biopharmaceutical company in San Diego, California, founded in
+> 2008 by Osman Kibar and known until 2020 as Samumed, LLC. Biosplice develops first-in-class
+> small-molecule therapeutics acting on novel components of the Wnt signaling pathway and on the
+> regulation of alternative pre-mRNA splicing. Its lead program is lorecivivint, an investigational
+> intra-articular knee injection for osteoarthritis with a New Drug Application submitted to the
+> U.S. FDA. Neurology, diabetes and oncology programs are developed by its affiliate TenaRx, Inc.
+
+## Status of the API surface
+
+Biosplice Therapeutics publishes **no API**. There is no developer portal, no documentation site,
+no SDK, no GitHub organization, and no machine-readable contract (OpenAPI, AsyncAPI, GraphQL SDL,
+Postman collection or JSON Schema) anywhere on biosplice.com. Contract discovery on 2026-08-07
+probed the spec paths (`/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`,
+`/api-docs`, `/docs`, `/redoc`, `/api`, `/graphql`, `/wp-json/`), the full `/.well-known/` set
+including both A2A agent-card paths, `/llms.txt`, `/robots.txt` and `/sitemap.xml` — every one
+returned 404 — and confirmed that `api.`, `developer.`, `docs.`, `portal.`, `app.`, `status.`,
+`trust.`, `security.`, `graphql.`, `mcp.` and `data.biosplice.com` resolve to nothing. This is an
+honest zero, not a gap: software is not this company's product.
+
+## Company
+
+- [Biosplice Therapeutics](https://www.biosplice.com/): corporate site (ASP.NET).
+- [Mission](https://www.biosplice.com/mission/default.aspx): what the company is working on.
+- [Osteoarthritis program](https://www.biosplice.com/our-programs/detail.aspx?id=20): lorecivivint.
+- [Other programs](https://www.biosplice.com/our-programs/other-programs.aspx): neurology,
+  diabetes and oncology, developed by affiliate TenaRx, Inc.
+- [Publications](https://www.biosplice.com/publications/default.aspx): peer-reviewed literature.
+- [Management](https://www.biosplice.com/management/default.aspx),
+  [Board of Directors](https://www.biosplice.com/board-of-directors/default.aspx),
+  [Advisors](https://www.biosplice.com/advisors/default.aspx).
+- [News](https://www.biosplice.com/news/default.aspx): press releases. No RSS/Atom feed is served.
+- [Careers](https://www.biosplice.com/careers/default.aspx).
+- [Contact Us](https://www.biosplice.com/contact-us/default.aspx): the only inbound channel.
+- [LinkedIn](https://www.linkedin.com/company/biospliceinc).
+
+## Legal
+
+- [Privacy Policy](https://www.biosplice.com/privacy/default.aspx)
+- [Terms of Use](https://www.biosplice.com/terms/default.aspx)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/biosplice-therapeutics/refs/heads/main/apis.yml)
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/biosplice-therapeutics/refs/heads/main/security/biosplice-therapeutics-domain-security.yml):
+  probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture.
+- [Well-known index](https://raw.githubusercontent.com/api-evangelist/biosplice-therapeutics/refs/heads/main/well-known/biosplice-therapeutics-well-known.yml):
+  the probed `/.well-known/` result set.
+
+---
+generated: 2026-08-07
+method: generated
+source: apis.yml + probed www.biosplice.com

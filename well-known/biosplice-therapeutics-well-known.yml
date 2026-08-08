@@ -1,0 +1,30 @@
+generated: '2026-08-07'
+method: probed
+source: live GET probes of https://www.biosplice.com/.well-known/*
+host: https://www.biosplice.com
+note: >-
+  Every /.well-known/ path on biosplice.com returns the site's ASP.NET 404 page. Paths without a
+  file extension are rewritten by the CMS to <path>/default.aspx before returning 404, which is
+  why the effective URL differs from the requested one on some rows. No document was served, so
+  no raw file was saved. api., developer., docs., portal., status., trust. and mcp.biosplice.com
+  have no DNS record at all, so there is no second host to probe.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+  effective_url: https://www.biosplice.com/.well-known/openid-configuration/default.aspx
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  effective_url: https://www.biosplice.com/.well-known/oauth-authorization-server/default.aspx
+- path: /.well-known/api-catalog
+  status: 404
+  effective_url: https://www.biosplice.com/.well-known/api-catalog/default.aspx
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /.well-known/mcp.json
+  status: 404
