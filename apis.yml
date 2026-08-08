@@ -1,7 +1,23 @@
 aid: biosplice-therapeutics
 name: Biosplice Therapeutics
-description: 'Biosplice Therapeutics is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Biosplice Therapeutics, Inc. is a privately held, clinical-stage biopharmaceutical company
+  headquartered in San Diego, California, founded in 2008 by Osman Kibar and known until its
+  2020 rename as Samumed, LLC (samumed.com still redirects to biosplice.com). The company
+  develops first-in-class small-molecule therapeutics that act on novel components of the Wnt
+  signaling pathway and on the regulation of alternative pre-mRNA splicing. Its lead program is
+  lorecivivint, an investigational intra-articular knee injection for osteoarthritis, positioned
+  against a stated unmet need of "over 50 million US patients suffer from osteoarthritis, with no
+  drugs available to arrest the disease"; the candidate has completed Phase 3 study and a New
+  Drug Application has been submitted to the U.S. Food and Drug Administration. Programs outside
+  lorecivivint — neurology, diabetes and oncology — are developed by the company's affiliate
+  TenaRx, Inc. The company is led by Erich Horsley (Chief Executive Officer) with Osman Kibar as
+  Founder and Executive Chairman, Yusuf Yazici as Chief Medical Officer, Phil Wilson as Chief
+  Financial Officer and Scott W. Bulcao as Chief Legal Officer. Biosplice is a drug-discovery and
+  clinical-development organization, not a software vendor: biosplice.com is a small ASP.NET
+  corporate site covering mission, board, management, advisors, programs, publications, news and
+  careers, and the company publishes no developer program of any kind — no API, no SDK, no
+  developer portal, no GitHub organization and no machine-readable API contract.
 url: https://raw.githubusercontent.com/api-evangelist/biosplice-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +28,15 @@ created: '2026-08-07'
 modified: '2026-08-07'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Drug Development
+- Clinical Trials
+- Osteoarthritis
+- Small Molecule Therapeutics
+- Health Care
+- San Diego
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +44,66 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/biosplice-therapeutics-domain-security.yml
+- type: WellKnown
+  url: well-known/biosplice-therapeutics-well-known.yml
+- type: LLMsTxt
+  url: llms/biosplice-therapeutics-llms.txt
 - type: Website
+  url: https://www.biosplice.com/
+- type: About
+  url: https://www.biosplice.com/mission/default.aspx
+- type: Pipeline
+  url: https://www.biosplice.com/our-programs/detail.aspx?id=20
+- type: Team
+  url: https://www.biosplice.com/management/default.aspx
+- type: Publications
+  url: https://www.biosplice.com/publications/default.aspx
+- type: News
+  url: https://www.biosplice.com/news/default.aspx
+- type: Blog
+  url: https://www.biosplice.com/news/default.aspx
+- type: Careers
+  url: https://www.biosplice.com/careers/default.aspx
+- type: Contact
+  url: https://www.biosplice.com/contact-us/default.aspx
+- type: Support
+  url: https://www.biosplice.com/contact-us/default.aspx
+- type: PrivacyPolicy
+  url: https://www.biosplice.com/privacy/default.aspx
+- type: TermsOfService
+  url: https://www.biosplice.com/terms/default.aspx
+- type: LinkedIn
+  url: https://www.linkedin.com/company/biospliceinc
+- type: SecondaryMarket
   url: https://forgeglobal.com/biosplice-therapeutics_stock/
+
+x-enrichment:
+  date: '2026-08-07'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Biosplice is a clinical-stage drug developer whose product is an injectable small molecule,
+    not software; www.biosplice.com is a 13KB ASP.NET brochure site with no robots.txt and no
+    sitemap.xml, every spec and /.well-known/ path is rewritten to the CMS 404 page, and
+    api./developer./docs./portal./status./graphql./mcp.biosplice.com have no DNS record at all.
+  evidence:
+  - url: https://www.biosplice.com/openapi.json
+    status: 404
+  - url: https://www.biosplice.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.biosplice.com/.well-known/agent.json
+    status: 404
+  - url: https://www.biosplice.com/llms.txt
+    status: 404
+  - url: https://www.biosplice.com/sitemap.xml
+    status: 404
+  - url: https://api.github.com/orgs/biosplice
+    status: 404
+  checked: '2026-08-07'
