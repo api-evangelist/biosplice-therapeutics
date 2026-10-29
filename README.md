@@ -64,5 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Biosplice Therapeutics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/biosplice-therapeutics_stock/
+Biosplice Therapeutics, Inc. is a privately held, clinical-stage biopharmaceutical company headquartered in San Diego, California, founded in 2008 by Osman Kibar and known until its 2020 rename as Samumed, LLC (samumed.com still redirects to biosplice.com). The company develops first-in-class small-molecule therapeutics that act on novel components of the Wnt signaling pathway and on the regulation of alternative pre-mRNA splicing. Its lead program is lorecivivint, an investigational intra-articular knee injection for osteoarthritis, positioned against a stated unmet need of "over 50 million US patients suffer from osteoarthritis, with no drugs available to arrest the disease"; the candidate has completed Phase 3 study and a New Drug Application has been submitted to the U.S. Food and Drug Administration. Programs outside lorecivivint — neurology, diabetes and oncology — are developed by the company's affiliate TenaRx, Inc. The company is led by Erich Horsley (Chief Executive Officer) with Osman Kibar as Founder and Executive Chairman, Yusuf Yazici as Chief Medical Officer, Phil Wilson as Chief Financial Officer and Scott W. Bulcao as Chief Legal Officer. Biosplice is a drug-discovery and clinical-development organization, not a software vendor: biosplice.com is a small ASP.NET corporate site covering mission, board, management, advisors, programs, publications, news and careers, and the company publishes no developer program of any kind — no API, no SDK, no developer portal, no GitHub organization and no machine-readable API contract.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · Life Sciences · Drug Development · Clinical Trials · Osteoarthritis · Small Molecule Therapeutics · Healthcare · San Diego
+
+## Biosplice Therapeutics on APIs.io
+
+Everything profiled for Biosplice Therapeutics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/biosplice-therapeutics/](https://apis.io/providers/biosplice-therapeutics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Biosplice Therapeutics Domain Security](https://apis.io/security/biosplice-therapeutics/biosplice-therapeutics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.biosplice.com/)
+- [Support](https://www.biosplice.com/contact-us/default.aspx)
+- [Blog](https://www.biosplice.com/news/default.aspx)
+- [Terms of service](https://www.biosplice.com/terms/default.aspx)
+- [Privacy policy](https://www.biosplice.com/privacy/default.aspx)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/biosplice-therapeutics/](https://apis.io/providers/biosplice-therapeutics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Biosplice Therapeutics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/biosplice-therapeutics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
